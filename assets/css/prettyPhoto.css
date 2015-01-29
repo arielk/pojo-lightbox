@@ -16,23 +16,27 @@ div.pp_default .pp_bottom .pp_middle,
 div.pp_default .pp_bottom .pp_right {
   height: 13px;
 }
-div.pp_default .pp_top .pp_left,
-div.pp_default .pp_top .pp_middle,
-div.pp_default .pp_top .pp_right,
-div.pp_default .pp_bottom .pp_left,
-div.pp_default .pp_bottom .pp_middle,
-div.pp_default .pp_bottom .pp_right {
-  background: #FFFFFF;
+div.pp_default .pp_top .pp_left {
+  background: url(../themes/default/sprite.png) -78px -93px no-repeat;
 }
+/* Top left corner */
+div.pp_default .pp_top .pp_middle {
+  background: url(../themes/default/sprite_x.png) top left repeat-x;
+}
+/* Top pattern/color */
+div.pp_default .pp_top .pp_right {
+  background: url(../themes/default/sprite.png) -112px -93px no-repeat;
+}
+/* Top right corner */
 div.pp_default .pp_content .ppt {
   color: #f8f8f8;
 }
 div.pp_default .pp_content_container .pp_left {
-  background: #FFFFFF;
+  background: url(../themes/default/sprite_y.png) -7px 0 repeat-y;
   padding-left: 13px;
 }
 div.pp_default .pp_content_container .pp_right {
-  background: #FFFFFF;
+  background: url(../themes/default/sprite_y.png) top right repeat-y;
   padding-right: 13px;
 }
 div.pp_default .pp_content {
@@ -157,6 +161,18 @@ div.pp_default .pp_description {
   line-height: 14px;
   margin: 5px 50px 5px 0;
 }
+div.pp_default .pp_bottom .pp_left {
+  background: url(../themes/default/sprite.png) -78px -127px no-repeat;
+}
+/* Bottom left corner */
+div.pp_default .pp_bottom .pp_middle {
+  background: url(../themes/default/sprite_x.png) bottom left repeat-x;
+}
+/* Bottom pattern/color */
+div.pp_default .pp_bottom .pp_right {
+  background: url(../themes/default/sprite.png) -112px -127px no-repeat;
+}
+/* Bottom right corner */
 div.pp_default .pp_loaderIcon {
   background: url(../themes/default/loader.gif) center center no-repeat;
 }
@@ -994,12 +1010,15 @@ div.ppt {
   color: #fff;
   display: none;
   font-size: 17px;
-  margin: 0 0 5px 15px;
-  z-index: 9999;
+  margin: 0 15px;
+  z-index: 10001;
 }
 /* ----------------------------------
 	RTL Support
 ----------------------------------- */
 .rtl .pp_content_container {
   direction: ltr;
+}
+.rtl div.ppt {
+  direction: rtl;
 }
