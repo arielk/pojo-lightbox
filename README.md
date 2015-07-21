@@ -1,14 +1,16 @@
-=== Pojo Lightbox ===
-Contributors: pojo.me, KingYes, ariel.k
-Tags: lightbox, image, allery, images, jquery, media, modal, overlay, prettyphoto, slideshow, PrettyPhoto,
-Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 2.0.2
-License: GPLv2 or later
+# Pojo Lightbox #
+[![Dependency Status](https://david-dm.org/pojome/pojo-lightbox/dev-status.svg)](https://david-dm.org/pojome/pojo-lightbox#info=devDependencies) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+**Contributors:** pojo.me, KingYes, ariel.k  
+**Tags:** lightbox, image, allery, images, jquery, media, modal, overlay, prettyphoto, slideshow, PrettyPhoto,  
+**Requires at least:** 3.5  
+**Tested up to:** 4.2.2  
+**Stable tag:** 2.0.2  
+**License:** GPLv2 or later  
 
 This plugin used to add the lightbox (overlay) effect to all images on your WordPress site with Pojo Framework.
 
-== Description ==
+## Description ##
 
 **Please Note:** This plugin is for [Pojo Framework][1] users only.
 
@@ -33,7 +35,7 @@ Would you like to like to contribute to Pojo Lightbox? You are more than welcome
  [3]: http://photoswipe.com/
  [4]: http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone
 
-== Installation ==
+## Installation ##
 
 **Automatic installation**
 <ol>
@@ -50,32 +52,32 @@ Would you like to like to contribute to Pojo Lightbox? You are more than welcome
 </ol>
 <ol>
 
-== Changelog ==
+## Changelog ##
 
-= 2.0.2 =
+### 2.0.2 ###
 * Fixes! - For hebrew dashboard
 * Fixes! - Wrong index lightbox in Gallery slider
 
-= 2.0.1 =
+### 2.0.1 ###
 * Update hebrew translate
 
-= 2.0.0 =
+### 2.0.0 ###
 * New! - Added PhotoSwipe lightbox script
 * Tested up to WordPress v4.2.2
 
-= 1.0.7 =
+### 1.0.7 ###
 * Tweak! - prettyPhoto updated to fix the XSS vulnerability
 
-= 1.0.6 =
+### 1.0.6 ###
 * Added option to Disable Lightbox on WooCommerce
 * Better responsive support
 
-= 1.0.5 =
+### 1.0.5 ###
 * Tested up to WordPress v4.1
 * Working with the new API for Pojo framework
 
-= 1.0.4 =
+### 1.0.4 ###
 * Tested up to WordPress v4.0
 
-= 1.0.3 =
+### 1.0.3 ###
 * Initial Public Release!
