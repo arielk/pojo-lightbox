@@ -2,8 +2,8 @@
 Contributors: pojo.me, KingYes, ariel.k
 Tags: lightbox, image, allery, images, jquery, media, modal, overlay, prettyphoto, slideshow, PrettyPhoto,
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 2.0.2
+Tested up to: 4.5
+Stable tag: 2.0.4
 License: GPLv2 or later
 
 This plugin used to add the lightbox (overlay) effect to all images on your WordPress site with Pojo Framework.
@@ -52,8 +52,11 @@ Would you like to like to contribute to Pojo Lightbox? You are more than welcome
 
 == Changelog ==
 
+= 2.0.4 =
+* Tweak! - Added minify styles for PhotoSwipe lightbox
+
 = 2.0.3 =
-* Tweak! - PhotoSwipe lightbox script updated to 4.1.0
+* Tweak! - Update photoswipe plugin 
 
 = 2.0.2 =
 * Fixes! - For hebrew dashboard
